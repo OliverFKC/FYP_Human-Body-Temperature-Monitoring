@@ -1,0 +1,20 @@
+
+.contentview {
+  margin: 0 10px;
+  
+  }
+   
+  .button {
+  margin: 10px;
+  background: linear-gradient(to bottom right, #3973df, #091946);
+  text-align: left;
+
+  
+  }
+   
+  .myview{
+    height:200px;
+    word-break:break-all;/* Automatic line feed */
+  }
+  
+  

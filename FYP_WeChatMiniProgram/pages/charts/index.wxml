@@ -1,0 +1,7 @@
+<!--charts.wxml-->
+<view class="echart_panel">
+    <ec-canvas ec="{{ ecLine }}"></ec-canvas>
+    <view class="logo">@Kecheng Production</view>
+    <view class="text">Object  Temperature: {{ objects }} C°</view>
+    <view class="text">Ambient Temperature: {{ ambients }} C°</view>
+  </view>

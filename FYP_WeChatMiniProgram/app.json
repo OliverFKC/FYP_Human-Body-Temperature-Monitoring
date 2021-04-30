@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/lanyatest/lanyatest",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/charts/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Bluetooth Connnection",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

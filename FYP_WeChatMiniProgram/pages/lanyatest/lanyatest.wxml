@@ -1,0 +1,20 @@
+<view class="contentview">
+
+<button type="primary" class="button" bindtap="BLEInit">1. Initialize the Bluetooth adapter</button>
+<button type="primary" class="button" bindtap="BLEState">2. Get Bluetooth adaptation status</button>
+<button type="primary" class="button" bindtap="BLESearch">3. Search for Bluetooth devices</button>
+<button type="primary" class="button" bindtap="BLEGetDevices">4. Get Bluetooth devices</button>
+<block wx:for="{{devices}}" wx:key="{{test}}">
+  <button type="primary"  id="{{item.deviceId}}" style='background-color:orange' 
+  bindtap="BLEConnect">{{item.name}}</button>
+</block>
+<button type="primary" class="button" bindtap="BLESearchStop">5. Stop searching</button>
+<button type="primary" class="button" bindtap="BLEGetservice">6. Get Bluetooth device service</button>
+<button type="primary" class="button" bindtap="BLEGetCharacteristics">7. Get device characteristics</button>
+<button type="primary" class="button" bindtap="BLECharacteristicValueChange">8. Notify characteristics change</button>
+<button type="primary" class="button" bindtap="BLEDataRecieve">9. Receive data</button>
+
+<button type="primary" class="button" bindtap="jumpToCharts">10. Visualization page</button>
+<button type="primary" class="button" bindtap="BLEDisconnect">11. Disconnect Bluetooth Devices</button>
+<button type="primary" class="button" bindtap="clearStorage">12. Clear Storage</button>
+</view>

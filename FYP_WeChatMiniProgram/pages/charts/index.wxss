@@ -1,0 +1,27 @@
+.echart_panel{
+  margin-top: 50rpx;
+  width: 750rpx;
+  height: 900rpx;
+}
+
+.logo{
+  width: 750rpx;
+  height: 200rpx;
+  color: #fff;
+  bottom: 0;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, #3973df, #091946);
+}
+
+.text{
+  margin-top: 80rpx;
+  margin-left: 80rpx;
+  height: 10rpx;
+  display: flex;
+  
+  justify-content: flex-start;
+  align-items: center;
+}
